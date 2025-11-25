@@ -36,7 +36,7 @@ func main() {
 }
 
 // flags sets up and parses flags. Return values are input file and output file
-// respecively.
+// respectively.
 func flags() (string, string, int) {
 	o := flag.String("out", "", "Name of output file, default is <infile>-new.json")
 	s := flag.Int("min-score", 0, "The minimum effective cd score for license confidence (0-100). Default is 0.")
